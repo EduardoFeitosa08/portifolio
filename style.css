@@ -47,7 +47,7 @@ header{
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--fifth-color);
-    font-size: 60%;
+    font-size: 55%;
     font-weight: 500;
     color: whitesmoke;
     padding-block: 1%;
@@ -82,7 +82,7 @@ main{
 }
 
 .welcome-section h2{
-    font-size: 30px;
+    font-size: 150%;
 }
 
 .welcome-section div{
