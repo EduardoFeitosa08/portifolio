@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid black;
+}
+
+a:hover{
+    color: blue;
+    border-bottom: 1px solid blue;
+    transition: .25s;
+}
+
+:root{
+    --primary-color: #fdf4b0;
+    --secundary-color: #a4dcb9;
+    --terciary-color: #5bcebf;
+    --fouth-color: #32b9be;
+    --fifth-color: #2e97b7;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--fifth-color);
+    font-size: 60%;
+    font-weight: 500;
+    color: var(--secundary-color);
+    padding-block: 1%;
+}
+
+header div{
+    display: flex;
+    gap: 12px;
+}
+
+header a{
+    border-bottom: 1px solid var(--secundary-color);
+}
+
+header a:hover{
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    transition: .25s;
+}
+
+main{
+    padding: 0 5%;
+}
+
+.welcome-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4% 10% 2% 5%;
+    font-size: 90%;
+    border-bottom: 2px solid var(--fouth-color);
+}
+
+.welcome-section h2{
+    font-size: 30px;
+}
+
+.welcome-section div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 50%;
+}
+
+.welcome-section img{
+    width: 35%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.skills-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-block: 5%;
+}
+
+.skills-section h2{
+    padding-left: 2%;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-bottom: 2px solid var(--fouth-color);
+    padding-bottom: 3%;
+    align-items: end;
+}
+
+.skills div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 2px rgba(58, 57, 57, 0.7);
+    padding: 1.5%;
+    font-size: 80%;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.skills img{
+    height: auto;
+    width: 50%;
+    place-self: center;
+}
+
+.programing-language div, .api-creation div, .git div{
+    width: 100%;
+    box-shadow: none;
+}
+
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 2px solid var(--fouth-color);
+    padding-bottom: 5%;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 80%;
+}
+
+.projects img{
+    height: auto;
+    width: 50%;
+    place-self: center;
+}
+
+.projects div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 3%;
+    box-shadow: 2px 2px 2px 2px rgba(58, 57, 57, 0.7);
+    border-radius: 10px;
+}
+
+.aplication-links{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+.aplication-links button{
+    padding: 2% 3%;
+    background-color: transparent;
+    border: 1px solid var(--terciary-color);
+    border-radius: 5px;
+}
+
+.aplication-links button:hover{
+    background-color: var(--terciary-color);
+    transition: .25s;
+    color: white;
+    cursor: pointer;
+}
+
+.rick-project div, .estados-project div{
+    box-shadow: none;
+}
+
+.estados-project img{
+    width: 70%;
+}
+
+.courses-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-block: 3%;
+}
+
+.courses{
+    display: flex;
+    font-size: 80%;
+    gap: 20px;
+}
+
+.courses h3{
+    font-size: 20px;
+}
+
+.courses img{
+    height: auto;
+    width: 50%;
+    place-self: center;
+}
+
+.courses div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px rgba(58, 57, 57, 0.7);
+    border-radius: 10px;
+    padding: 3%;
+    gap: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--fifth-color);
+    color: var(--secundary-color);
+    padding: 3%;
+    font-size: 90%;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer h4:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    transition: .10s;
+}
+
+footer img:hover{
+    cursor: pointer;
+}
+
+footer img{
+    height: auto;
+    width: 35px;
+}
